@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моето портфолио</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Моето портфолио</h1>
+
+        <nav>
+            <a href="#home">Начало</a>
+            <a href="#about">За мен</a>
+            <a href="#skills">Умения</a>
+            <a href="#projects">Проекти</a>
+            <a href="#contact">Контакти</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section id="home">
+            <h2>Начало</h2>
+
+            <img src="photos/me2.png"
+                 alt="Моя снимка"
+                 class="profile-image">
+
+            <h3>Любослав Иванов Илиев</h3>
+
+            <p>
+                Здравейте! Аз съм ученик в 12. клас.
+                Интересувам се от програмиране или по-точно от създаване на уебсайтове.
+            </p>
+        </section>
+
+
+        <section id="about">
+            <h2>За мен</h2>
+
+            <p>
+                Уча в НПГ по КТС гр.Правец и развивам знанията си по програмиране
+                и информационни технологии.
+            </p>
+
+            <p>
+                Интересувам се от компютри, уеб разработка и нови технологии.
+            </p>
+
+            <p>
+                Моята цел е да подобрявам уменията си и в бъдеще
+                да работя в сферата на програмирането.
+            </p>
+        </section>
+
+
+        <section id="skills">
+            <h2>Умения</h2>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>C++</li>
+                <li>PHP</li>
+            </ul>
+        </section>
+
+
+        <section id="projects">
+            <h2>Проекти</h2>
+
+            <div class="project">
+                <img src="photos/food.png"
+                     alt="Проект 1">
+
+                <h3>heavens_kitchen</h3>
+
+                <p>
+                    Сайт за поръчка на храна
+                </p>
+
+                <p><strong>Технологии:</strong> HTML,CSS,Bootstrap,PHP и MySQL</p>
+
+                <a href="https://github.com/1ubaka/heavens_kitchen" target="_blank">
+                    Линк към проекта
+                </a>
+            </div>
+
+
+            <div class="project">
+                <img src="photos/food.png"
+                     alt="Проект 2">
+
+                <h3>heavens_kitchen_docker</h3>
+
+                <p>
+                    Сайт за поръчка на храна и контейнерализирането му чрез Docker
+                </p>
+
+                <p><strong>Технологии:</strong> HTML,CSS,PHP,Apache Web Server,MySQL,phpMyAdmin,Docker,Docker Compose и Bootstrap</p>
+
+                <a href="https://github.com/1ubaka/heavens_kitchen_docker" target="_blank">
+                    Линк към проекта
+                </a>
+            </div>
+
+
+            <div class="project">
+                <img src="photos/library.jpg"
+                     alt="Проект 3">
+
+                <h3>Библиотечна система</h3>
+
+                <p>
+                    Това е мини библиотечна система. Системата демонстрира основни ООП концепции като капсулация, конструктори, деструктори, статични членове, Rule of 3/5 и валидация на данни.
+                </p>
+
+                <p><strong>Технологии:</strong> C++</p>
+
+                <a href="https://github.com/1ubaka/library-system" target="_blank">
+                    Линк към проекта
+                </a>
+            </div>
+        </section>
+
+
+        <section id="contact">
+            <h2>Контакти</h2>
+
+            <form>
+                <label for="name">Име:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Имейл:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="subject">Тема:</label>
+                <input type="text" id="subject" name="subject">
+
+                <label for="message">Съобщение:</label>
+                <textarea id="message" name="message"></textarea>
+
+                <button type="submit">Изпрати</button>
+            </form>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>© 2026 Любослав Иванов Илиев</p>
+    </footer>
+
+</body>
+</html>
